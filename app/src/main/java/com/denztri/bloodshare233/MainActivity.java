@@ -18,6 +18,12 @@ import com.google.android.material.button.MaterialButton;
 //                           component Spinner di RegisterActivity
 //                        3. Pengerjaan button onClick tombol back pada RegisterActivity agar dapat
 //                           kembali ke MainActivity
+//                        4. Pengerjaan button onClick 'REGISTER' pada RegisterActivity agar dapat
+//                           berpindah ke AlmostThereActivity
+//                        5. Pengerjaan button onClick 'VERIFY' pada AlmostThereActivity agar dapat
+//                           berpindah ke VerifyActivity
+//                        6. Pengerjaan button onClick 'SEND' pada VerifyActivity agar dapat
+//                           berpindah ke HomeActivity
 
 public class MainActivity extends AppCompatActivity {
 
