@@ -34,4 +34,22 @@
     <string name="almost_subtitle_3">to activate your account</string>
     <string name="resed">RESEND</string>
     <string name="no_code">doesn\'t get the code?</string>
+    <string name="home_name">Denden Triana</string>
+    <string name="home_blood_type_b">Blood Type : B</string>
+    <string name="hamburger_menu">Hamburger Menu</string>
+    <string name="notification">Notification</string>
+    <string name="home_blood_give_value">75</string>
+    <string name="home_blood_subtext">BLOOD GIVE</string>
+    <string name="home_received_subtext">BLOOD RECEIVED</string>
+    <string name="home_blood_received_value">100</string>
+    <string name="home_thanks_subtext">THANKS</string>
+    <string name="home_thanks_give_value">330</string>
+    <string name="search_donor">Search Donor</string>
+    <string name="search_donor_near_you">Search Donor near you</string>
+    <string name="blood_needed">Blood Needed</string>
+    <string name="blood_needed_value">4 Users need blood</string>
+    <string name="message">Message</string>
+    <string name="message_value">5 New Messages</string>
+    <string name="donor_history">Donor History</string>
+    <string name="donor_history_value">5 Gives, 2 Received</string>
 </resources>
