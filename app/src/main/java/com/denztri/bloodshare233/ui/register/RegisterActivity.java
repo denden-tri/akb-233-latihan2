@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.denztri.bloodshare233.MainActivity;
 import com.denztri.bloodshare233.R;
+import com.denztri.bloodshare233.ui.almost.AlmostThereActivity;
 import com.google.android.material.button.MaterialButton;
 
 public class RegisterActivity extends AppCompatActivity {
@@ -39,5 +40,8 @@ public class RegisterActivity extends AppCompatActivity {
 
         MaterialButton backButton = findViewById(R.id.register_back_button);
         backButton.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
+
+        MaterialButton registerButton = findViewById(R.id.register_reg_button);
+        registerButton.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), AlmostThereActivity.class)));
     }
 }
