@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">10119233Latihan2</string>
+    <string name="logo">Bloodshare</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="or">OR</string>
+    <string name="fb_login">CONNECT WITH FACEBOOk</string>
+    <string name="no_account">doesn\'t have account?</string>
+    <string name="register">REGISTER</string>
+    <string name="back_button">back button</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="reshus">Reshus</string>
+    <string name="retype_pass">Retype Password</string>
+    <string name="personal">Personal</string>
+    <string name="organizatio">Organization</string>
+    <string name="job">Job</string>
+    <string name="home_address">Home Address</string>
+    <string name="default_location">Default Location</string>
+    <string name="agree_with_terms_and_conditios">Agree with Terms and Conditios</string>
+    <string name="register_button">Register</string>
+    <string name="verify_your_account">Verify your Account</string>
+    <string name="we_have_send_verification_code_to_your_email">We have send verification code to your email</string>
+    <string name="enter_verification_code_here">enter verification code here...</string>
+    <string name="send">SEND</string>
+    <string name="verify">VERIFY</string>
+    <string name="almost_there">Almost There</string>
+    <string name="almost_subtitle_1">Thank you for registering with us. One more</string>
+    <string name="almost_subtitle_2">step, you need to check your email</string>
+    <string name="almost_subtitle_3">to activate your account</string>
+    <string name="resed">RESEND</string>
+    <string name="no_code">doesn\'t get the code?</string>
+</resources>

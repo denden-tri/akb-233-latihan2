@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.verify.VerifyActivity"
+    android:background="@color/light_blue"
+    android:layout_gravity="fill_vertical"
+    >
+
+    <TextView
+        android:id="@+id/verify_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/verify_your_account"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/verify_subtitle"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/verify_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/we_have_send_verification_code_to_your_email"
+        android:textColor="@color/bg_color"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/verify_code_input" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/verify_code_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/enter_verification_code_here"
+        android:minHeight="48dp"
+        android:textColorHint="@color/gray_400"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/verify_send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        app:layout_constraintTop_toBottomOf="@id/verify_code_input"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/bg_color"
+        app:strokeColor="@color/bg_color"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:id="@+id/no_account_container"
+        app:layout_constraintTop_toBottomOf="@id/verify_send_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/no_code"
+            android:textColor="#4E342E" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resed"
+            android:textColor="@color/bg_color"
+            android:fontFamily="@font/roboto_bold"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
