@@ -185,7 +185,7 @@
             android:src="@drawable/ic_search_donor"
             app:shapeAppearanceOverlay="@style/RoundedHomeItem"
             app:strokeColor="@color/light_blue"
-            app:strokeWidth="1dp" />
+            app:strokeWidth="0dp" />
         <TextView
             android:id="@+id/home_item_1_title"
             android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
             android:src="@drawable/ic_blood_needed"
             app:shapeAppearanceOverlay="@style/RoundedHomeItem"
             app:strokeColor="@color/light_blue"
-            app:strokeWidth="1dp" />
+            app:strokeWidth="0dp" />
         <TextView
             android:id="@+id/home_item_2_title"
             android:layout_width="wrap_content"
@@ -262,7 +262,7 @@
             android:src="@drawable/ic_message"
             app:shapeAppearanceOverlay="@style/RoundedHomeItem"
             app:strokeColor="@color/light_blue"
-            app:strokeWidth="1dp" />
+            app:strokeWidth="0dp" />
 
         <TextView
             android:id="@+id/home_item_3_title"
@@ -303,7 +303,7 @@
             android:src="@drawable/ic_donor_history"
             app:shapeAppearanceOverlay="@style/RoundedHomeItem"
             app:strokeColor="@color/light_blue"
-            app:strokeWidth="1dp" />
+            app:strokeWidth="0dp" />
 
         <TextView
             android:id="@+id/home_item_4_title"
